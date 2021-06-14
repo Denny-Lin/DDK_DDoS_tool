@@ -8,3 +8,6 @@ First style will be a type that let server send SYN/ACK to the random client wit
 * We are an anonymous client, so, of couse, we won't respond.
 * The server will resend SYN/ACK five times during 1s + 2s + 4s+ 8s+ 16s + 32s = 63s in linux.
 * So ... we can do something.
+* include/linux/ip.h
+* struct iphdr
+* ...
